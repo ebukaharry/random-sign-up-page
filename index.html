@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Individuals Sign Up</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="./logo.png" alt="logo" id="logo" />
+      <div class="heading">
+        <h2>For Individuals</h2>
+
+        <!-- This description only appears for mobile viewports -->
+        <p class="desc-sm">
+          Inspiring wholesome harmony for the mind, body and spirit, for
+          everyone, everywhere.
+        </p>
+
+        <!-- This description only appears for desktop viewports -->
+        <p class="desc-lg">
+          Start benefiting from the wellness experience. For companies looking
+          on increasing productivity, and improving organization wellness.
+        </p>
+      </div>
+    </header>
+
+    <div class="form">
+      <form action="">
+        <div class="grp-1">
+          <div class="form-control">
+            <label for="firstName">First Name</label><br />
+            <input type="text" name="firstName" class="form-input" />
+          </div>
+          <div class="form-control">
+            <label for="lastName">Last Name</label><br />
+            <input type="text" name="lastName" class="form-input" />
+          </div>
+        </div>
+
+        <div class="grp-2">
+          <div class="form-control">
+            <label for="gender">Gender</label><br />
+            <select name="gender" id="gender">
+              <option value="Select here">Select here</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+            </select>
+          </div>
+          <div class="form-control">
+            <label for="dob">Date of Birth</label><br />
+            <input type="date" name="dob" class="form-input" id="dob" />
+          </div>
+        </div>
+
+        <div class="grp-3">
+          <div class="form-control">
+            <label for="weight">Weight (KG)</label><br />
+            <input
+              type="number"
+              placeholder="Enter Weight"
+              class="form-input"
+            />
+          </div>
+          <div class="form-control">
+            <label for="weight">Height (CM)</label><br />
+            <input
+              type="number"
+              placeholder="Enter height here.."
+              class="form-input"
+            />
+          </div>
+        </div>
+
+        <div class="form-control">
+          <label for="activityLevel">Activity Level</label><br />
+          <select name="activityLevel" id="activityLevel">
+            <option class="opt-placeholder" value="Select here">
+              Select here
+            </option>
+            <option value="">.</option>
+            <option value="">..</option>
+          </select>
+        </div>
+        <div class="form-control">
+          <label for="password">Password</label><br />
+          <input type="password" id="password" class="form-input" />
+        </div>
+        <button type="submit" class="btn">Register</button>
+      </form>
+
+      <footer>
+        <p class="disclaimer">
+          By clicking Register, you agree to our
+          <a href="#">Terms of Use</a> and our <a href="#">Privacy Policy</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
